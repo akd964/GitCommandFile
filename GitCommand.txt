@@ -1,0 +1,41 @@
+Set Up Git:
+git config --global user.name "Your Name"
+git config --global user.email "youremail@domain.com"
+
+other commands
+
+if want to send any file from local repo:
+git init
+git status
+git add(if add all files:git add -A)
+git commit
+git log
+git remote add origin https://github.com/akd964/HelloWorld.git
+git push origin master
+
+
+
+git clone (url)
+git add (file names)
+git commit -m "(committed message)
+git push -u origin master
+git remote add origin master (url)
+
+
+GIT version:
+git --version
+Check the configuration:
+git config --list
+
+Stop tracking Git project:
+rm -rf .git
+
+To  ignore a file:
+1.Create one gitignore file:
+touch .gitignore
+2.specify file names in .gitignore
+
+
+Remove file from staging area:(after git add file_name)
+git reset file_name
+git status
